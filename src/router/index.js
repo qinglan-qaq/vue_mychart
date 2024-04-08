@@ -37,11 +37,7 @@ const routes = [
   {
     path: "/index",
     component: () => import("../components/indexPage.vue"),
-  },
-  {
-    path: "/hello",
-    component: () => import("../components/HelloWorld.vue"),
-  },
+  }
 ];
 
 const router = createRouter({
