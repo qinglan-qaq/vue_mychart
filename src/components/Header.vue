@@ -1,22 +1,11 @@
 <template>
   <!-- 创建头部 -->
   <div>
-    <div class="mb-4">
-      <el-button>Default</el-button>
-      <el-button type="primary">Primary</el-button>
-      <el-button type="success">Success</el-button>
-      <el-button type="info">Info</el-button>
-      <el-button type="warning">Warning</el-button>
-      <el-button type="danger">Danger</el-button>
-    </div>
-    <div class="common-layout">
-      <el-container>
-        <el-header>Header</el-header>
-        <el-container>
-          <el-aside width="200px">Aside</el-aside>
-          <el-main>Main</el-main>
-        </el-container>
-      </el-container>
+    <div class="header">
+      <div class="logo">Logo</div>
+
+      <div class="account">account</div>
+      <div class="setting">setting</div>
     </div>
   </div>
 </template>
@@ -26,8 +15,26 @@ export default {};
 </script>
 
 <style>
-.common-layout{
-    border: 2px red;
+.header {
+  height: 30%;
+  width: 100%;
+
+  padding: 20px;
+  margin: 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid red;
 }
 
+.logo {
+  text-align: center;
+}
+.account,
+.setting {
+  margin-left: 30px;
+}
 </style>
