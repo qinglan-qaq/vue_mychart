@@ -3,9 +3,10 @@
   <div>
     <div class="header">
       <div class="logo">Logo</div>
-
-      <div class="account">account</div>
-      <div class="setting">setting</div>
+      <div>
+        <div class="account">account</div>
+        <div class="setting">setting</div>
+      </div>
     </div>
   </div>
 </template>
@@ -17,7 +18,7 @@ export default {};
 <style>
 .header {
   height: 30%;
-  width: 100%;
+  width: 97%;
 
   padding: 20px;
   margin: 0px;
