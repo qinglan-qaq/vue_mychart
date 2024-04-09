@@ -18,10 +18,7 @@ export default {};
 <style>
 .header {
   height: 30%;
-  width: 97%;
-
   padding: 20px;
-  margin: 0px;
 
   display: flex;
   flex-direction: row;

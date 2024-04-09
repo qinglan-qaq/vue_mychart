@@ -5,7 +5,7 @@
         <Header></Header>
       </div>
       <div class="main">
-          <router-view></router-view>
+        <router-view></router-view>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
 <script>
 import Header from "./components/Header.vue";
 import Footer from "@/components/Footer";
-import SideBar from './components/sideBar.vue';
+import SideBar from "./components/sideBar.vue";
 export default {
   name: "App",
   components: {
@@ -26,11 +26,10 @@ export default {
 </script>
 
 <style>
-.common-layout{
-  border: 2px slide black;
+.common-layout {
+  /* border: 2px slide black; */
 }
 .head {
-    
 }
 
 .main {
